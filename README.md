@@ -20,15 +20,15 @@ Two versions of the script are available.
 
 ### For use on local machine or IDE
 
-This version can be executed in the terminal or IDE:
+This version `JSON_to_CSV_Local.py` can be executed in the terminal or IDE:
 ```
-python inbound-csv.py
+python JSON_to_CSV_Local.py
 ```
 The output .csv will be saved in the current working directory.
 
 ### For use in Datorama
 
-This version is modified for use in Datorama to automate the ingestion of data into a Datorama data stream. In this version, the output .csv is automatically uploaded to Datorama and will not be stored on the local machine.
+This version `JSON_to_CSV_Datorama.py` is modified for use in Datorama to automate the ingestion of data into a Datorama data stream. In this version, the output .csv is automatically uploaded to Datorama and will not be stored on the local machine.
 
 To automate data retrieval in Datorama:
 1. Specify Frequency (e.g. Daily) and Delivery Hour (e.g. 06)
